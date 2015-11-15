@@ -1,0 +1,35 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+  width: 1280px;
+  margin: 0 auto;
+}
+
+.nav{
+	margin: 0 auto;
+	width: 1260px;
+    font-size: 32px;
+	padding: 10px;
+	padding-top:15px;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-weight: bold;
+    text-align: center;
+    background-color: #7DAE22;
+}
+
+.nav a{
+	display:inline-block;
+	text-decoration: none;
+	color:#FFF;
+	width:15%;
+}
+
+.nav a:hover{
+	text-decoration: none;
+	color: #B2B80C;
+}
+
+.nav li{
+    display:inline;
+}
